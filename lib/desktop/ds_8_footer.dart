@@ -49,14 +49,14 @@ class DS8Footer extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              SelectableText(
+             /* SelectableText(
                 DataValues.builtWith,
                 style: Theme.of(context).textTheme.bodyMedium,
               ),
               const SizedBox(
                 width: 5,
               ),
-              getSourceCode(context),
+              getSourceCode(context),*/
             ],
           ),
           const SizedBox(

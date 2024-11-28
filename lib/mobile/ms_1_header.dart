@@ -9,8 +9,15 @@ class MS1Header extends StatelessWidget {
 
   List<Widget> headerData() {
     return [
-      Image.asset('assets/images/logo.png', height: 250.0, width: 250.0),
-      const SizedBox(height: 40.0),
+      ClipRRect(
+        borderRadius: BorderRadius.circular(150.0), // Half of the height/width
+        child: Image.asset(
+          'assets/images/logo.jpeg',
+          height: 300.0,
+          width: 300.0,
+          fit: BoxFit.cover, // Ensures the image fits well in the circular frame
+        ),
+      ),      const SizedBox(height: 40.0),
       Column(
         children: [
           SelectableText(

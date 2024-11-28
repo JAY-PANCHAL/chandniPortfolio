@@ -28,18 +28,13 @@ class DS3Education extends StatelessWidget {
               children: [
                 Expanded(
                   child: ContainerCard().type2(
-                    image: 'mms',
+                    image: 'gls.jpeg',
                     title: DataValues.educationOrg1Title,
                     values: [
                       DataValues.educationOrg1Course1Name,
                       DataValues.educationOrg1Course1Grade,
                       DataValues.educationOrg1Course1Year,
-                      DataValues.educationOrg1Course2Name,
-                      DataValues.educationOrg1Course2Grade,
-                      DataValues.educationOrg1Course2Year,
-                      DataValues.educationOrg1Course3Name,
-                      DataValues.educationOrg1Course3Year,
-                      DataValues.educationOrg1Course3Year2,
+
                     ],
                     message: DataValues.linkedinURL.toString(),
                     url: DataValues.linkedinURL,
@@ -48,18 +43,13 @@ class DS3Education extends StatelessWidget {
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
                 Expanded(
                   child: ContainerCard().type2(
-                    image: 'nibm',
+                    image: 'ignou.png',
                     title: DataValues.educationOrg2Title,
                     values: [
                       DataValues.educationOrg2Course1Name,
                       DataValues.educationOrg2Course1Grade,
                       DataValues.educationOrg2Course1Year,
-                      DataValues.educationOrg2Course2Name,
-                      DataValues.educationOrg2Course2Grade,
-                      DataValues.educationOrg2Course2Year,
-                      DataValues.educationOrg2Course3Name,
-                      DataValues.educationOrg2Course3Grade,
-                      DataValues.educationOrg2Course3Year,
+
                     ],
                     message: DataValues.linkedinURL.toString(),
                     url: DataValues.linkedinURL,

@@ -46,7 +46,7 @@ class MS8Footer extends StatelessWidget {
           const SizedBox(
             height: 10,
           ),
-          Row(
+         /* Row(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
@@ -59,7 +59,7 @@ class MS8Footer extends StatelessWidget {
               ),
               getSourceCode(context),
             ],
-          ),
+          ),*/
           const SizedBox(
             height: 10,
           ),

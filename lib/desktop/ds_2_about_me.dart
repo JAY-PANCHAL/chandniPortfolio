@@ -27,11 +27,11 @@ class DS2AboutMe extends StatelessWidget {
                   description: DataValues.aboutMeBiographyDescription,
                 ),
                 const SizedBox(height: 40.0),
-                ButtonTextSmall(
+               /* ButtonTextSmall(
                   text: 'View Full Biography >>',
                   message: DataValues.biographyURL.toString(),
                   url: DataValues.biographyURL,
-                ),
+                ),*/
               ],
             ),
           ),
@@ -45,11 +45,11 @@ class DS2AboutMe extends StatelessWidget {
                   description: DataValues.aboutMeFullNameDescription,
                 ),
                 const SizedBox(height: 30.0),
-                TextPairs().type1(
+               /* TextPairs().type1(
                   title: DataValues.aboutMeNwITitle,
                   description: DataValues.aboutMeNwIDescription,
                 ),
-                const SizedBox(height: 30.0),
+                const SizedBox(height: 30.0),*/
                 TextPairs().type1(
                   title: DataValues.aboutMeFnLTitle,
                   description: DataValues.aboutMeFnLDescription,
@@ -87,12 +87,12 @@ class DS2AboutMe extends StatelessWidget {
                   description: DataValues.aboutMeLocationDescription,
                 ),
                 const SizedBox(height: 30.0),
-                TextPairs().type1(
+              /*  TextPairs().type1(
                   title: DataValues.aboutMeWorkDomainTitle,
                   description: DataValues.aboutMeWorkDomainDescription,
                 ),
-                const SizedBox(height: 30.0),
-                TextPairs().type1(
+                const SizedBox(height: 30.0),*/
+                /*TextPairs().type1(
                   title: DataValues.aboutMeHobbiesTitle,
                   description: DataValues.aboutMeHobbiesDescription,
                 ),
@@ -100,7 +100,7 @@ class DS2AboutMe extends StatelessWidget {
                 TextPairs().type1(
                   title: DataValues.aboutMeGoalTitle,
                   description: DataValues.aboutMeGoalDescription,
-                ),
+                ),*/
               ],
             ),
           ),
@@ -115,7 +115,7 @@ class DS2AboutMe extends StatelessWidget {
       child: Row(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Expanded(
+        /*  Expanded(
             child: ContainerCard().type1(
               title: DataValues.aboutMeStudentTitle,
               description: DataValues.aboutMeStudentDescription,
@@ -124,7 +124,7 @@ class DS2AboutMe extends StatelessWidget {
               url: DataValues.linkedinURL,
             ),
           ),
-          SizedBox(width: MediaQuery.of(context).size.width * 0.03),
+          SizedBox(width: MediaQuery.of(context).size.width * 0.03),*/
           Expanded(
             child: ContainerCard().type1(
               title: DataValues.aboutMeDeveloperTitle,
@@ -139,7 +139,7 @@ class DS2AboutMe extends StatelessWidget {
             child: ContainerCard().type1(
               title: DataValues.aboutMeVolunteerTitle,
               description: DataValues.aboutMeVolunteerDescription,
-              image: 'assets/icons/volunteer.png',
+              image: 'assets/icons/developer.png',
               message: DataValues.linkedinURL.toString(),
               url: DataValues.linkedinURL,
             ),
@@ -167,7 +167,7 @@ class DS2AboutMe extends StatelessWidget {
             const SizedBox(height: 40.0),
             titles(context),
             const SizedBox(height: 80.0),
-            Center(
+           /* Center(
               child: ContainerBanner().type1(
                   isDesktop: true,
                   title1: DataValues.aboutMeBanner,
@@ -176,7 +176,7 @@ class DS2AboutMe extends StatelessWidget {
                   image: 'logo',
                   message: 'View Profiles',
                   url: DataValues.profilesURL),
-            ),
+            ),*/
           ],
         ),
       ),

@@ -11,19 +11,19 @@ class SocialProfiles extends StatelessWidget {
     return Row(
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        ButtonIcon(name: 'dev', url: DataValues.devURL).returnButton(),
+       /* ButtonIcon(name: 'dev', url: DataValues.devURL).returnButton(),
         const SizedBox(width: 10.0),
         ButtonIcon(name: 'hashnode', url: DataValues.hashnodeURL)
             .returnButton(),
-        const SizedBox(width: 10.0),
+        const SizedBox(width: 10.0),*/
         ButtonIcon(name: 'github', url: DataValues.githubURL).returnButton(),
         const SizedBox(width: 10.0),
         ButtonIcon(name: 'linkedin', url: DataValues.linkedinURL)
             .returnButton(),
         const SizedBox(width: 10.0),
-        ButtonIcon(name: 'twitter', url: DataValues.twitterURL).returnButton(),
-        const SizedBox(width: 10.0),
-        ButtonIcon(name: 'youtube', url: DataValues.youtubeURL).returnButton(),
+      /*  ButtonIcon(name: 'twitter', url: DataValues.twitterURL).returnButton(),
+        const SizedBox(width: 10.0),*/
+       /* ButtonIcon(name: 'youtube', url: DataValues.youtubeURL).returnButton(),
         const SizedBox(width: 10.0),
         ButtonIcon(name: 'telegram', url: DataValues.telegramURL)
             .returnButton(),
@@ -32,7 +32,7 @@ class SocialProfiles extends StatelessWidget {
             .returnButton(),
         const SizedBox(width: 10.0),
         ButtonIcon(name: 'instagram', url: DataValues.instagramURL)
-            .returnButton(),
+            .returnButton(),*/
       ],
     );
   }

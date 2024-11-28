@@ -23,22 +23,22 @@ class MS2AboutMe extends StatelessWidget {
             description: DataValues.aboutMeBiographyDescription,
           ),
           const SizedBox(height: 20.0),
-          ButtonTextSmall(
+         /* ButtonTextSmall(
             text: 'View Full Biography >>',
             message: DataValues.biographyURL.toString(),
             url: DataValues.biographyURL,
           ),
-          const SizedBox(height: 30.0),
+          const SizedBox(height: 30.0),*/
           TextPairs().type1(
             title: DataValues.aboutMeFullNameTitle,
             description: DataValues.aboutMeFullNameDescription,
           ),
           const SizedBox(height: 30.0),
-          TextPairs().type1(
+        /*  TextPairs().type1(
             title: DataValues.aboutMeNwITitle,
             description: DataValues.aboutMeNwIDescription,
           ),
-          const SizedBox(height: 30.0),
+          const SizedBox(height: 30.0),*/
           TextPairs().type1(
             title: DataValues.aboutMeFnLTitle,
             description: DataValues.aboutMeFnLDescription,
@@ -69,12 +69,12 @@ class MS2AboutMe extends StatelessWidget {
             description: DataValues.aboutMeLocationDescription,
           ),
           const SizedBox(height: 30.0),
-          TextPairs().type1(
+          /*TextPairs().type1(
             title: DataValues.aboutMeWorkDomainTitle,
             description: DataValues.aboutMeWorkDomainDescription,
           ),
-          const SizedBox(height: 30.0),
-          TextPairs().type1(
+          const SizedBox(height: 30.0),*/
+         /* TextPairs().type1(
             title: DataValues.aboutMeHobbiesTitle,
             description: DataValues.aboutMeHobbiesDescription,
           ),
@@ -82,7 +82,7 @@ class MS2AboutMe extends StatelessWidget {
           TextPairs().type1(
             title: DataValues.aboutMeGoalTitle,
             description: DataValues.aboutMeGoalDescription,
-          ),
+          ),*/
         ],
       ),
     );
@@ -94,14 +94,13 @@ class MS2AboutMe extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          ContainerCard().type1(
+         /* ContainerCard().type1(
             title: DataValues.aboutMeStudentTitle,
             description: DataValues.aboutMeStudentDescription,
             image: 'assets/icons/student.png',
             message: DataValues.linkedinURL.toString(),
-            url: DataValues.linkedinURL,
-          ),
-          const SizedBox(height: 20.0),
+                                     ),
+          const SizedBox(height: 20.0),*/
           ContainerCard().type1(
             title: DataValues.aboutMeDeveloperTitle,
             description: DataValues.aboutMeDeveloperDescription,
@@ -113,7 +112,7 @@ class MS2AboutMe extends StatelessWidget {
           ContainerCard().type1(
             title: DataValues.aboutMeVolunteerTitle,
             description: DataValues.aboutMeVolunteerDescription,
-            image: 'assets/icons/volunteer.png',
+            image: 'assets/icons/developer.png',
             message: DataValues.linkedinURL.toString(),
             url: DataValues.linkedinURL,
           ),
@@ -140,7 +139,7 @@ class MS2AboutMe extends StatelessWidget {
             const SizedBox(height: 40.0),
             titles(context),
             const SizedBox(height: 80.0),
-            Center(
+         /*   Center(
               child: ContainerBanner().type1(
                   isDesktop: true,
                   title1: DataValues.aboutMeBanner,
@@ -149,7 +148,7 @@ class MS2AboutMe extends StatelessWidget {
                   image: 'logo',
                   message: 'View Profiles',
                   url: DataValues.profilesURL),
-            ),
+            ),*/
           ],
         ),
       ),

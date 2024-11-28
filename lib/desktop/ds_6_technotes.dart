@@ -11,7 +11,7 @@ class DS6TechNotes extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return /*Container(
       key: KeyHolders.technotesKey,
       color: AppThemeData.backgroundGrey,
       child: Padding(
@@ -57,6 +57,8 @@ class DS6TechNotes extends StatelessWidget {
           ],
         ),
       ),
-    );
+    );*/
+
+ Container();
   }
 }

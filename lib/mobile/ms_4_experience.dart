@@ -24,29 +24,41 @@ class MS4Experience extends StatelessWidget {
                 title: DataValues.experienceTitle,
                 description: DataValues.experienceDescription),
             const SizedBox(height: 30.0),
-            ContainerCard().type3(
-              image: 'dileepabandara_dev',
-              title: DataValues.experienceOrg1Title,
-              role: DataValues.experienceOrg1Role,
-              years: DataValues.experienceOrg1Years,
-              values: DataValues.experienceOrg1Vales,
-              message: DataValues.linkedinURL.toString(),
-              url: DataValues.linkedinURL,
-              isButtonEnabled: true,
+            Row(
+              children: [
+                Expanded(
+                  child: ContainerCard().type3(
+                    image: 'infosys',
+                    title: DataValues.experienceOrg1Title,
+                    role: DataValues.experienceOrg1Role,
+                    years: DataValues.experienceOrg1Years,
+                    values: DataValues.experienceOrg1Vales,
+                    message: DataValues.linkedinURL.toString(),
+                    url: DataValues.linkedinURL,
+                    isButtonEnabled: true,
+                  ),
+                ),
+              ],
             ),
             const SizedBox(height: 20.0),
-            ContainerCard().type3(
-              image: 'ddstechvira',
-              title: DataValues.experienceOrg2Title,
-              role: DataValues.experienceOrg2Role,
-              years: DataValues.experienceOrg2Years,
-              values: DataValues.experienceOrg2Vales,
-              message: DataValues.linkedinURL.toString(),
-              url: DataValues.linkedinURL,
-              isButtonEnabled: true,
+            Row(
+              children: [
+                Expanded(
+                  child: ContainerCard().type3(
+                    image: 'infosys',
+                    title: DataValues.experienceOrg2Title,
+                    role: DataValues.experienceOrg2Role,
+                    years: DataValues.experienceOrg2Years,
+                    values: DataValues.experienceOrg2Vales,
+                    message: DataValues.linkedinURL.toString(),
+                    url: DataValues.linkedinURL,
+                    isButtonEnabled: true,
+                  ),
+                ),
+              ],
             ),
             const SizedBox(height: 40.0),
-            Center(
+            /*Center(
               child: ContainerBanner().type1(
                   isDesktop: false,
                   title1: DataValues.experienceBanner,
@@ -55,7 +67,7 @@ class MS4Experience extends StatelessWidget {
                   image: 'logo',
                   message: 'View Toolkit',
                   url: DataValues.toolkitURL),
-            ),
+            ),*/
           ],
         ),
       ),

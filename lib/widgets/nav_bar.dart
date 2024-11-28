@@ -47,7 +47,7 @@ class NavBar {
           message: 'Go to ${DataValues.navBarVolunteering} section',
         ),
         const SizedBox(width: 20.0),
-        ButtonTextLarge(
+       /* ButtonTextLarge(
           text: DataValues.navBarTechNotes,
           onPressed: () => Scrollable.ensureVisible(
             KeyHolders.technotesKey.currentContext!,
@@ -55,7 +55,7 @@ class NavBar {
           ),
           message: 'Go to ${DataValues.navBarTechNotes} section',
         ),
-        const SizedBox(width: 20.0),
+        const SizedBox(width: 20.0),*/
         ButtonRectangle(
             name: DataValues.navBarContactMe,
             onPressed: () => Scrollable.ensureVisible(
@@ -72,8 +72,15 @@ class NavBar {
     Widget miniHeader() {
       return Column(
         children: [
-          Image.asset('assets/images/logo.png', height: 80.0, width: 80.0),
-          const SizedBox(height: 10.0),
+          ClipRRect(
+            borderRadius: BorderRadius.circular(40.0), // Half of the height/width
+            child: Image.asset(
+              'assets/images/logo.jpeg',
+              height: 80.0,
+              width: 80.0,
+              fit: BoxFit.cover, // Ensures the image fits well in the circular frame
+            ),
+          ),          const SizedBox(height: 10.0),
           SelectableText(
             DataValues.headerName,
             style: TextStyle(
@@ -134,7 +141,7 @@ class NavBar {
             message: 'Go to ${DataValues.navBarVolunteering} section',
           ),
           const SizedBox(height: 20.0),
-          ButtonTextLarge(
+         /* ButtonTextLarge(
             text: DataValues.navBarTechNotes,
             onPressed: () => Scrollable.ensureVisible(
               KeyHolders.technotesKey.currentContext!,
@@ -142,7 +149,7 @@ class NavBar {
             ),
             message: 'Go to ${DataValues.navBarTechNotes} section',
           ),
-          const SizedBox(height: 20.0),
+          const SizedBox(height: 20.0),*/
           ButtonRectangle(
               name: DataValues.navBarContactMe,
               onPressed: () => Scrollable.ensureVisible(

@@ -94,7 +94,7 @@ class ContainerCard {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Image.asset('assets/images/$image.png', height: 70.0),
+                Image.asset('assets/images/$image', height: 70.0),
                 const SizedBox(height: 20.0),
                 SelectableText(title,
                     style: TextStyle(
@@ -112,7 +112,7 @@ class ContainerCard {
                   isThreeLines: false,
                 ),
                 const SizedBox(height: 10.0),
-                TextPairs().type2(
+               /* TextPairs().type2(
                   title: values[3],
                   value1: values[4],
                   value2: values[5],
@@ -124,15 +124,15 @@ class ContainerCard {
                   value1: values[7],
                   value2: values[8],
                   isThreeLines: false,
-                ),
+                ),*/
               ],
             ),
             const SizedBox(height: 20.0),
-            ButtonTextSmall(
+           /* ButtonTextSmall(
               text: 'View More >>',
               message: message,
               url: url,
-            ),
+            ),*/
           ],
         ),
       ),
@@ -171,7 +171,7 @@ class ContainerCard {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Image.asset('assets/images/$image.png', height: 70.0),
+                image!=""?Image.asset('assets/images/$image.jpeg', height: 70.0):Container(),
                 const SizedBox(height: 20.0),
                 SelectableText(title,
                     style: TextStyle(
@@ -191,7 +191,7 @@ class ContainerCard {
               ],
             ),
             const SizedBox(height: 20.0),
-            isButtonEnabled
+           /* isButtonEnabled
                 ? ButtonTextSmall(
                     text: 'View More >>',
                     message: message,
@@ -200,7 +200,7 @@ class ContainerCard {
                 : Text(
                     'See you soon with the link :)',
                     style: AppThemeData.darkTheme.textTheme.labelMedium,
-                  ),
+                  ),*/
           ],
         ),
       ),

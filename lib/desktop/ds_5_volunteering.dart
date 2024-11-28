@@ -29,7 +29,7 @@ class DS5Volunteering extends StatelessWidget {
               children: [
                 Expanded(
                   child: ContainerCard().type3(
-                    image: 'flutterscope',
+                    image: '',
                     title: DataValues.volunteeringOrg1Title,
                     role: DataValues.volunteeringOrg1Role,
                     years: DataValues.volunteeringOrg1Years,
@@ -42,11 +42,44 @@ class DS5Volunteering extends StatelessWidget {
                 SizedBox(width: MediaQuery.of(context).size.width * 0.05),
                 Expanded(
                   child: ContainerCard().type3(
-                    image: 'mlsa',
+                    image: '',
                     title: DataValues.volunteeringOrg2Title,
                     role: DataValues.volunteeringOrg2Role,
                     years: DataValues.volunteeringOrg2Years,
                     values: DataValues.volunteeringOrg2Vales,
+                    message: DataValues.linkedinURL.toString(),
+                    url: DataValues.linkedinURL,
+                    isButtonEnabled: true,
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 30.0),
+
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Expanded(
+                  child: ContainerCard().type3(
+                    image: '',
+                    title: DataValues.volunteeringOrg3Title,
+                    role: DataValues.volunteeringOrg3Role,
+                    years: DataValues.volunteeringOrg3Years,
+                    values: DataValues.volunteeringOrg3Vales,
+                    message: DataValues.linkedinURL.toString(),
+                    url: DataValues.linkedinURL,
+                    isButtonEnabled: true,
+                  ),
+                ),
+                SizedBox(width: MediaQuery.of(context).size.width * 0.05),
+                Expanded(
+                  child: ContainerCard().type3(
+                    image: '',
+                    title: DataValues.volunteeringOrg4Title,
+                    role: DataValues.volunteeringOrg4Role,
+                    years: DataValues.volunteeringOrg4Years,
+                    values: DataValues.volunteeringOrg4Vales,
                     message: DataValues.linkedinURL.toString(),
                     url: DataValues.linkedinURL,
                     isButtonEnabled: true,
@@ -62,7 +95,7 @@ class DS5Volunteering extends StatelessWidget {
                 title2: DataValues.volunteeringBannerTitle,
                 description: DataValues.volunteeringBannerWeb,
                 image: 'image',
-                message: 'Volunteering Profile',
+                message: 'Click to get my CV',
                 url: DataValues.volunteeringURL,
               ),
             ),

@@ -1,10 +1,10 @@
 class DataValues {
   // About App
-  static const String appName = 'Dileepa Bandara';
-  static const String appNameLong = 'dileepabandara.dev';
+  static const String appName = 'Chandni Thakkar';
+  static const String appNameLong = 'Chandni Thakkar';
   static const String appDescription =
-      'Hello there, I\'m Dileepa Bandara. This is my personal website, which contains public information that anyone can find on the internet.';
-  static const String appDeveloper = 'Dileepa Bandara';
+      'Hello there, I\'m Chandni Thakkar. Discover my journey, expertise, and professional story all in one place.';
+  static const String appDeveloper = 'Chandni Thakkar';
   static const String appPackage = 'dev.dileepabandara.dileepabandara_dev';
   static const String appVersion = '1.1.2';
   static const String appBuildNumber = '1';
@@ -12,8 +12,8 @@ class DataValues {
   // External links
   static Uri devURL = Uri.parse('https://dileepabandara.dev');
   static Uri hashnodeURL = Uri.parse('https://hashnode.com/@dileepabandara');
-  static Uri githubURL = Uri.parse('https://github.com/dileepabandara');
-  static Uri linkedinURL = Uri.parse('https://linkedin.com/in/dileepabandara');
+  static Uri githubURL = Uri.parse('https://github.com/Chandni-thakkar');
+  static Uri linkedinURL = Uri.parse('https://www.linkedin.com/in/chandni-python-developer');
   static Uri twitterURL = Uri.parse('https://twitter.com/_dileepabandara');
   static Uri youtubeURL = Uri.parse('https://youtube.com/@flutterscope');
   static Uri telegramURL = Uri.parse('https://t.me/dileepabandara');
@@ -25,64 +25,61 @@ class DataValues {
   static Uri profilesURL = Uri.parse('https://profile.dileepabandara.dev');
   static Uri toolkitURL = Uri.parse('https://toolkit.dileepabandara.dev');
   static Uri volunteeringURL =
-      Uri.parse('https://volunteer.dileepabandara.dev');
+      Uri.parse('https://drive.google.com/file/d/1qnFYu07Kw8ZSJ2jyAYE7p0IMaz5oiiIs/view?usp=drivesdk');
   static Uri technotesURL = Uri.parse('https://techdiary.dileepabandara.dev');
   static Uri lateNightStudentURL = Uri.parse('https://blog.dileepabandara.dev');
 
   // Header
   static const String headerGreetings = 'Hello, World! I\'m';
-  static const String headerName = 'Dileepa Bandara';
-  static const String headerTitle = 'Student | Developer | Volunteer';
+  static const String headerName = 'Chandni Thakkar';
+  static const String headerTitle = 'Python | Django Developer';
 
   // Navigation Bar
   static const String navBarAboutMe = 'About Me';
   static const String navBarEducation = 'Education';
   static const String navBarExperience = 'Experience';
-  static const String navBarVolunteering = 'Volunteering';
+  static const String navBarVolunteering = 'Projects';
   static const String navBarTechNotes = 'TechNotes';
   static const String navBarContactMe = 'Contact Me';
 
   // About me
   static const String aboutMeTitle = 'About Me';
   static const String aboutMeDescription =
-      'This website includes my public details, which anyone can find on the internet. So if you are looking for my personal information, such as my bio, education, experience, and other things that may make you wonder, feel free to scroll up and down to find out about me.';
+      'I am a dedicated Python Developer with 1.5 years of experience in Python and a total of 4 years in the IT industry at Infosys. My expertise includes working with frameworks like Django and FastAPI, and I am always eager to learn new technologies. Throughout my career, I have demonstrated the ability to take on new challenges, adapt to evolving technologies, and consistently deliver high-quality results. I am passionate about continuous learning and development and am ready to embrace new opportunities to expand my skill set.';
   static const String aboutMeBiographyTitle = 'Biography';
   static const String aboutMeBiographyDescription =
-      'Hi there! I\'m a computing student, solution developer, and community volunteer. I believe that personal growth and learning are essential for success, and I have dedicated my life to achieving both. '
-      'Because of that, I\'m always looking to learn new things and apply them to whatever I\'m doing. '
-      'Technology is always igniting my passion for the positive impact it can have, and I\'m excited to continue growing my skills and knowledge, so I started my career as a techie. '
-      'In addition to my studies, I\'m also passionate about giving back to various communities and helping others, which is why I volunteer my time to help out whenever I can, and I believe that this work is vital in helping to create a better future for everyone.';
+      'I am a passionate and dedicated Python Developer with 1.5 years of hands-on experience specializing in Python programming, complemented by a total of 4 years in the IT industry at Infosys. My expertise lies in working with robust frameworks such as Django and FastAPI, enabling me to build scalable and efficient web applications tailored to meet diverse requirements.Throughout my career, I have honed my ability to tackle complex challenges, adapt to rapidly evolving technologies, and deliver solutions that align with high-quality standards. My time in the industry has instilled in me a strong work ethic and a commitment to continuous improvement.Beyond my technical skills, I thrive on learning and exploring new tools, frameworks, and methodologies to stay ahead in the dynamic tech landscape. This growth mindset fuels my drive to contribute effectively and grow both professionally and personally.I am excited about embracing new opportunities, collaborating with innovative teams, and expanding my horizons as a developer, bringing both my skills and enthusiasm for technology to every project I undertake.';
   static const String aboutMeFullNameTitle = 'Full Name';
   static const String aboutMeFullNameDescription =
-      'Jayasundara Mudiyanselage Dileepa Lakmal Bandara';
+      'Chandni RakeshBhai Thakkar';
   static const String aboutMeNwITitle = 'Name with Initials';
   static const String aboutMeNwIDescription = 'J.M. Dileepa Lakmal Bandara';
   static const String aboutMeFnLTitle = 'First and Last Name';
-  static const String aboutMeFnLDescription = 'Dileepa Bandara';
+  static const String aboutMeFnLDescription = 'Chandni Thakkar';
   static const String aboutMeDobTitle = 'Birthday';
-  static const String aboutMeDobDescription = 'July 24, 1997';
+  static const String aboutMeDobDescription = 'Augast 29, 1999';
   static const String aboutMeLanguageTitle = 'Languages';
-  static const String aboutMeLanguageDescription = 'Sinhala (Native)\n'
-      'English (Professional)';
+  static const String aboutMeLanguageDescription = 'Gujrati (Native)\n'
+      'English (Professional)\n' 'Hindi(Professional)';
   static const String aboutMeNationalityTitle = 'Nationality';
-  static const String aboutMeNationalityDescription = 'Sri Lankan';
+  static const String aboutMeNationalityDescription = 'Indian';
   static const String aboutMeGenderTitle = 'Gender';
-  static const String aboutMeGenderDescription = 'Male (He/Him/His)';
+  static const String aboutMeGenderDescription = 'Female (She/Her)';
   static const String aboutMeLocationTitle = 'Current Locations';
   static const String aboutMeLocationDescription =
-      'Kurunegala, Sri Lanka\nColombo, Sri Lanka';
+      'Ahmedabad (Gujrat)';
   static const String aboutMeWorkDomainTitle = 'Working Domain';
-  static const String aboutMeWorkDomainDescription = 'dileepabandara.dev\n'
-      '08:00 - 18:00 (GMT+5:30)';
+  static const String aboutMeWorkDomainDescription =
+      '10:00 - 18:00 (GMT+5:30)';
   static const String aboutMeStudentTitle = 'Computing Student';
   static const String aboutMeStudentDescription =
       'I study computing technologies as a student by focusing on learning how computer systems work, from the physical (hardware) to the apps and programs (software) that users interact with, and I learn all about critical thinking, problem-solving, and analytical research, regardless of whether I apply all the computing principles to solve problems in scenarios.';
-  static const String aboutMeDeveloperTitle = 'Solution Developer';
+  static const String aboutMeDeveloperTitle = 'Senior System Associate at INFOSYS LIMITED';
   static const String aboutMeDeveloperDescription =
-      'I use various tools for creating and implementing innovative solutions to problems in order to accomplish particular goals. I employ a variety of techniques, including software development alongside app development, as well as design and develop structures such as UI/UX, graphics, data management, and other analytical methods with a focus on business points.';
-  static const String aboutMeVolunteerTitle = 'Community Volunteer';
+      'Led a dynamic team of 15, driving SLA compliance and seamless service delivery through efficient project coordination and progress tracking.\n\nSkilled in creating actionable insights with Power BI and Excel, I ensured workflow optimization and team performance monitoring.\n\nExperienced in managing client interactions and bridging offshore teams with stakeholders, I facilitated smooth collaboration.\n\nProficient in tools like Salesforce, OMC, BPM, Flightdeck, and Power BI, I streamlined order lifecycle tasks and delivered impactful results with precision and efficiency.';
+  static const String aboutMeVolunteerTitle = 'Python | Django Developer at INFOSYS LIMITED';
   static const String aboutMeVolunteerDescription =
-      'I\'ve been a volunteer for many years and have had the opportunity to make a difference in my social and technical communities. Volunteering has allowed me to learn more about the people and things around me while also making a positive difference in the lives of those I serve, and by volunteering, I would love to help others reach their life goals.';
+      'At Infosys, I worked as a Python Developer, gaining 1.5 years of experience in backend development and contributing to various critical projects.\n\nI implemented logging and monitoring systems for trading applications, optimized memory usage, and automated workflows using Python and tools like AMPS and Flightdeck.\n\nI developed ETL pipelines with multi-connector support for databases like MySQL, PostgreSQL, Oracle, and MongoDB, enabling efficient data transformation and query generation.\n\nUsing Django and FastAPI, I created secure APIs with token-based authentication, role-based access, and real-time notifications via Slack and email.\n\nI collaborated with cross-functional teams in Agile environments, delivering solutions while ensuring compliance with governance and risk management standards.\n\nKey tools and technologies include Redis, Celery, SQLAlchemy, Power BI, Git, JIRA, and Swagger.';
   static const String aboutMeHobbiesTitle = 'Hobbies';
   static const String aboutMeHobbiesDescription = 'Learning New Things\n'
       'Watching Movies & TV Shows\n'
@@ -94,18 +91,18 @@ class DataValues {
   static const String aboutMeBanner = 'You can find my';
   static const String aboutMeBannerTitle = 'public profiles';
   static const String aboutMeBannerWeb =
-      'Visit profile.dileepabandara.dev to find all my public profiles.';
+      '';
 
   // Education
   static const String educationTitle = 'Education';
   static const String educationDescription =
-      'My educational background is not specific in any particular way and has come from various places. In this section, you can find out about my formal and other sources from 2003 to now. So, here are my school, undergraduate institution, and other learning platforms that I\'ve been involving for education.';
+      '';
   static const String educationOrg1Title =
-      'Maliyadeva Adarsha M.V. - Sri Lanka';
-  static const String educationOrg1Course1Name = 'GCE Advanced Level';
+      'Bachelor of Computer Applications';
+  static const String educationOrg1Course1Name = ' GLS University';
   static const String educationOrg1Course1Grade =
-      'Combined Maths, Physics, and Chemistry';
-  static const String educationOrg1Course1Year = 'Attempted: 2016 & 2017';
+      'June 2016 — May 2019';
+  static const String educationOrg1Course1Year = '';
   static const String educationOrg1Course2Name = 'GCE Ordinary Level ';
   static const String educationOrg1Course2Grade = 'Passed with 6A, 3B';
   static const String educationOrg1Course2Year = '2013';
@@ -113,11 +110,11 @@ class DataValues {
   static const String educationOrg1Course3Year = 'Secondary: 2008 - 2016';
   static const String educationOrg1Course3Year2 = 'Primary: 2003 - 2007';
 
-  static const String educationOrg2Title = 'NIBM - Sri Lanka';
-  static const String educationOrg2Course1Name = 'BSc (Hons) Computing';
+  static const String educationOrg2Title = 'Masters of Computer Applications';
+  static const String educationOrg2Course1Name = 'IGNOU';
   static const String educationOrg2Course1Grade =
-      'awarded by Coventry University, UK';
-  static const String educationOrg2Course1Year = '2022 - Ongoing';
+      'January 2021 — July 2024';
+  static const String educationOrg2Course1Year = '';
   static const String educationOrg2Course2Name =
       'Higher National Diploma in Software Engineering';
   static const String educationOrg2Course2Grade =
@@ -136,42 +133,60 @@ class DataValues {
   // Experience
   static const String experienceTitle = 'Experience';
   static const String experienceDescription =
-      'Since I started my diploma in 2019, I\'ve started to learn and apply my knowledge in different places. So I started working as a freelance solution developer, and with time, I fell in love with different technologies. I received industrial training in my second year, and now I try out my experience.';
-  static const String experienceOrg1Title = 'Dileepa Bandara';
-  static const String experienceOrg1Role = 'Solution Developer';
-  static const String experienceOrg1Years = 'June 2019 - June 2022';
+      '';
+  static const String experienceOrg1Title = 'Infosys';
+  static const String experienceOrg1Role = 'Senior System Associate';
+  static const String experienceOrg1Years = 'April 2020 - Nov 2022';
   static const String experienceOrg1Vales =
-      'Mobile, Desktop, Web development, UI UX, Tech Support Assistant & Data Analysis.';
-  static const String experienceOrg2Title = 'DDS Techvira';
+      '';
+  static const String experienceOrg2Title = 'Infosys';
   static const String experienceOrg2Role =
-      'Trainee Software Developer (Flutter)';
-  static const String experienceOrg2Years = 'May 2021 - November 2021';
+      'Python Developer';
+  static const String experienceOrg2Years = 'Nov 2022 - Present';
   static const String experienceOrg2Vales =
-      'Android, Flutter, Dart, Firebase, Git, REST API, JSON Parsing & UI UX Designing.';
+      '';
   static const String experienceBanner = 'Find my working';
   static const String experienceBannerTitle = 'toolkit';
   static const String experienceBannerWeb =
       'Visit toolkit.dileepabandara.dev for more details >>';
 
   // Volunteering
-  static const String volunteeringTitle = 'Volunteering';
+  static const String volunteeringTitle = 'Projects';
   static const String volunteeringDescription =
-      'Volunteering is an amazing way for me to give back to communities and make a difference. It\'s also a terrific opportunity to meet new people, learn new skills, and gain valuable experience. I do volunteer work for many different social and technical organizations. These are more focused organizations where I am presently volunteering.';
-  static const String volunteeringOrg1Title = 'FlutterScope';
-  static const String volunteeringOrg1Role = 'Content Creator';
-  static const String volunteeringOrg1Years = 'January 2022 - Present';
+      'As a Python Developer at Infosys, I contributed to several critical projects involving backend development, data pipelines, and system optimizations. I worked extensively with frameworks like Django and FastAPI, focusing on automating processes, optimizing memory usage, and enhancing performance for trading applications. I developed dynamic ETL tools, integrated real-time log management, and collaborated with cross-functional teams to ensure timely delivery and maintain system reliability. My experience also includes leveraging tools like Power BI, Redis, and Celery to streamline workflows and improve operational efficiency.';
+  static const String volunteeringOrg1Title = 'Infosys';
+  static const String volunteeringOrg1Role = 'Python Developer';
+  static const String volunteeringOrg1Years = '';
   static const String volunteeringOrg1Vales =
-      'FlutterScope was founded to disseminate knowledge about Flutter and related technologies. This community is an educational group that is not affiliated with or otherwise sponsored by Google LLC.';
-  static const String volunteeringOrg2Title = 'Microsoft';
+      'As a Python Developer at Infosys, I worked on several critical backend development projects that involved optimizing system performance and automating complex workflows. I focused on creating scalable solutions with Django and FastAPI, while ensuring data consistency and accuracy through dynamic query generation and ETL pipeline design.\n\nTools like Redis and Celery were used for real-time data processing, and I also leveraged Power BI for performance reporting and monitoring. I was deeply involved in production support, addressing performance issues and resolving critical system errors to maintain smooth operations.\n\nI primarily worked with databases such as PostgreSQL, MySQL, and MongoDB, ensuring seamless integration across multiple platforms. My role also included creating RESTful APIs, implementing secure token-based authentication, and collaborating with cross-functional teams to ensure optimal results.\n\nLanguages: Python, SQL, JavaScript (for API integrations)Tools: Django, FastAPI, Redis, Celery, Power BI, MySQL, PostgreSQL, MongoDB, Git, Bitbucket';
+  static const String volunteeringOrg2Title = 'Trading Application Logging & Monitoring';
   static const String volunteeringOrg2Role =
-      'Microsoft Learn Student Ambassador';
-  static const String volunteeringOrg2Years = 'October 2022 - Present';
+      'Python Developer';
+  static const String volunteeringOrg2Years = '';
   static const String volunteeringOrg2Vales =
-      'Microsoft Learn Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities, and develop technical and career skills for the future.';
-  static const String volunteeringBanner = 'Find more about my';
-  static const String volunteeringBannerTitle = 'volunteering';
+      'In this project, I led the implementation of logging and monitoring systems for trading applications to ensure compliance with governance and risk management requirements. The project focused on creating real-time logs and detailed reports to track user interactions and application performance.\n\nI optimized memory usage by resolving issues related to large dataset processing, breaking down jobs into smaller chunks for improved efficiency. I also automated various processes using Python scripts, reducing manual efforts and increasing productivity.\n\nAdditionally, I collaborated with the client to ensure smooth communication and to align on performance goals, leading to the successful delivery of a scalable solution.\n\nLanguages: PythonTools: AMPS, Flightdeck, Power BI, PostgreSQL, Redis';
+
+  static const String volunteeringOrg3Title = 'TrackLog - Log Management & Analytics Tool';
+  static const String volunteeringOrg3Role =
+      'Python Developer';
+  static const String volunteeringOrg3Years = '';
+  static const String volunteeringOrg3Vales =
+      'For TrackLog, I developed a comprehensive backend using Django to manage and analyze logs, facilitating better project oversight and team collaboration. The system integrated real-time notifications via Slack and email, helping teams stay updated on log entries and user activity.\n\nTo ensure secure access, I implemented role-based access control, utilizing token and OTP-based authentication methods for user registration. I also optimized API response times by integrating Redis for fast, in-memory log storage.\n\nThe log analytics features I developed allowed for detailed reporting and filtering, improving visibility and tracking for the teams.\n\nLanguages: Python, JavaScriptTools: Django, Redis, Celery, Slack API, PostgreSQL';
+
+  static const String volunteeringOrg4Title = 'Data Pipeline & Query Generation Tool';
+  static const String volunteeringOrg4Role =
+      'Python Developer';
+  static const String volunteeringOrg4Years = '';
+  static const String volunteeringOrg4Vales =
+      'In this project, I designed and developed an ETL tool that allowed for seamless integration of various databases and REST APIs. The tool supported dynamic SQL query generation based on user input, enabling efficient data transformation and processing.\n\nI built and maintained connectors for databases such as MySQL, PostgreSQL, and MongoDB, ensuring smooth data extraction and transformation workflows. Additionally, I created a user-friendly interface for managing data connectors and pipelines, reducing manual query construction time significantly.\n\nPerformance optimization was a key focus, and I ensured high scalability by streamlining database interactions and query execution.\n\nLanguages: Python, SQLTools: MySQL, PostgreSQL, MongoDB, Redis, Celery, SQLAlchemy, Pandas';
+
+
+
+
+  static const String volunteeringBanner = 'Have a look at my Resume?';
+  static const String volunteeringBannerTitle = '';
   static const String volunteeringBannerWeb =
-      'Visit volunteer.dileepabandara.dev for more details >>';
+      '';
 
   // TechNotes
   static const String technotesTitle = 'TechNotes';
@@ -190,15 +205,15 @@ class DataValues {
   static const String technotesOrg2Vales =
       'Welcome to my vlog, where we\'ll be exploring the fascinating world of technology! Technology is constantly evolving and transforming the world we live in, creating new paths and opportunities for us to explore. In this vlog, I\'ll be sharing my personal journey of discovery and exploration in the tech world, as I learn about the latest advancements and emerging trends in the industry. From cutting-edge software and innovative solutions to groundbreaking ideas and futuristic concepts, we\'ll cover it all in this vlog. So join me on this exciting journey as we discover the ever-changing world of technology together!';
   // Contact
-  static const String contactTitle = 'Contact';
+  static const String contactTitle = 'Contact Me!';
   static const String contactDescription =
-      'Hey! I appreciate you looking at my public profile. Please feel free to ask me anything or to discuss anything with me. I\'m happy to chat with and meet new people. Regardless of the fact that I don\'t use social media much, you can find me there. So find me and get in touch with me. Send me an email if you need to discuss anything serious with me. I\'ll get back to you in 12 to 24 hours.';
+      '';
   static const String contactBanner = 'Send me an email at';
-  static const String contactEmail = 'contact@dileepabandara.dev';
+  static const String contactEmail = 'chandnithakkar1214@gmail.com';
 
   // Footer
   static const String copyright =
-      "Copyright ©2023 Dileepa Bandara. All Rights Reserved.";
+      "Copyright ©2023 Chandni Thakkar. All Rights Reserved.";
 
   static const String builtWith = "Built with Flutter and GitHub Pages.";
 }
