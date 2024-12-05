@@ -29,16 +29,16 @@ class MS2AboutMe extends StatelessWidget {
             url: DataValues.biographyURL,
           ),
           const SizedBox(height: 30.0),*/
-          TextPairs().type1(
+        /*  TextPairs().type1(
             title: DataValues.aboutMeFullNameTitle,
             description: DataValues.aboutMeFullNameDescription,
           ),
           const SizedBox(height: 30.0),
-        /*  TextPairs().type1(
+        *//*  TextPairs().type1(
             title: DataValues.aboutMeNwITitle,
             description: DataValues.aboutMeNwIDescription,
           ),
-          const SizedBox(height: 30.0),*/
+          const SizedBox(height: 30.0),*//*
           TextPairs().type1(
             title: DataValues.aboutMeFnLTitle,
             description: DataValues.aboutMeFnLDescription,
@@ -53,7 +53,7 @@ class MS2AboutMe extends StatelessWidget {
             title: DataValues.aboutMeDobTitle,
             description: DataValues.aboutMeDobDescription,
           ),
-          const SizedBox(height: 30.0),
+          const SizedBox(height: 30.0),*/
           TextPairs().type1(
             title: DataValues.aboutMeLanguageTitle,
             description: DataValues.aboutMeLanguageDescription,
